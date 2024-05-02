@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros estudos com Dom</title>
+    <style>
+        body{
+            background-color: rgb(117, 117, 255);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>iniciando estudo com Dom</h1>
+    <p>Aprendendo usar o Dom</p>
+    <p>Estou gostando</p>
+    <div id="msg">clike aqui</div>
+
+    <script>
+       p1= document.getElementsByTagName('p')[1]
+    
+       p1.style.color='red'
+
+
+       var d = document.getElementById('msg')
+       d.style.color='green'
+    </script>
+</body>
+</html>
