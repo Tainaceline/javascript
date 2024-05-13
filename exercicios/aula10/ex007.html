@@ -14,10 +14,12 @@
     
     <script>
         function somar(){
-            var tn1= document.getElementById('text1')
-            var tn2= document.getElementById('text2')
-            n1= Number(tn1.value)
-            n2= Number(tn2.value)
+           
+            var tn1= Number(document.getElementById('text1').value)
+            var tn2= Number(document.getElementById('text2').value)
+         
+            s=tn1+tn2
+            r1.innerText=s
             s=n1+n2
             r1.innerText=s
         }

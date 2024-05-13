@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>País</h1>
+    Digite seu país :<input type="text" name="tpaís" id="tpaís">
+    <input type="button" value="concluir" onclick="clicar()">
+    <div id="res"></div>
+    <script>
+        function clicar(){
+            var p= String(document.getElementById('tpaís').value)
+            var r= document.getElementById('res')
+            r.innerHTML=`Vivendo em ${p}`
+            if (p=='Brasil'){
+                r.innerHTML='Você é Brasileiro'
+            }
+            else{
+                r.innerHTML='Você é Estrangeiro'
+            }
+           
+        
+        }
+    </script>
+</body>
+</html>

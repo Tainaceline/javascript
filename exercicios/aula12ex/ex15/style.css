@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(139, 139, 252);
+  font: normal 13pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    width: 500px;
+    border-radius: 10px;
+    margin:auto ;
+    padding: 13px;
+    height: 200px;
+
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+}
